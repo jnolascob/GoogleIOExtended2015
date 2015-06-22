@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary">
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/main_toolbar">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/button_navigation"
+                android:text="@string/button_navigation"
+                style="@style/Button" />
+
+            <Button
+                android:id="@+id/button_humble_improvements"
+                android:text="@string/button_humble_improvements"
+                android:layout_below="@+id/button_navigation"
+                style="@style/Button" />
+
+            <Button
+                android:id="@+id/button_snackbar"
+                android:text="@string/button_snackbar"
+                android:layout_below="@+id/button_humble_improvements"
+                style="@style/Button" />
+
+            <Button
+                android:id="@+id/button_coordinator_one"
+                android:text="@string/button_coordinator_one"
+                android:layout_below="@+id/button_snackbar"
+                style="@style/Button" />
+
+            <Button
+                android:id="@+id/button_coordinator_two"
+                android:text="@string/button_coordinator_two"
+                android:layout_below="@+id/button_coordinator_one"
+                style="@style/Button" />
+            <Button
+                android:id="@+id/button_coordinator_three"
+                android:text="@string/button_coordinator_three"
+                android:layout_below="@+id/button_coordinator_two"
+                style="@style/Button" />
+
+            <Button
+                android:id="@+id/button_coordinator_four"
+                android:text="@string/button_coordinator_four"
+                android:layout_below="@+id/button_coordinator_three"
+                style="@style/Button" />
+
+            <Button
+                android:id="@+id/button_coordinator_five"
+                android:text="@string/button_coordinator_five"
+                android:layout_below="@+id/button_coordinator_four"
+                style="@style/Button" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

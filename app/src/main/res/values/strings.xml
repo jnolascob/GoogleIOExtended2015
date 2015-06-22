@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">AndroidDesignSupportLibraryApplication</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Navigation -->
+    <string name="title">Nuevas Características</string>
+    <string name="button_navigation">Vistas de Navegación</string>
+    <string name="title_activity_navigation">Navegación</string>
+
+    <string name="navigation_item_1">Item 1</string>
+    <string name="navigation_item_2">Item 2</string>
+    <string name="navigation_subheader">Sub Header</string>
+    <string name="navigation_sub_item_1">Item 3</string>
+    <string name="navigation_sub_item_2">Item 4</string>
+
+    <string name="dummy_text">Aquí va tu grandioso contenido</string>
+
+    <!-- Humble improvements -->
+    <string name="title_activity_humble_improvements">HumbleImprovementsActivity</string>
+    <string name="button_humble_improvements">Entradas de texto y FAB</string>
+    <string name="hint_text">Ingresa el nombre de un pokemón</string>
+    <string name="hint_error">Ese no cuenta... solo los 150 primeros</string>
+    <string name="check_text">Revisar pokemón</string>
+
+    <!-- Snackbar Activity -->
+    <string name="title_activity_snackbar">Snackbar</string>
+    <string name="button_snackbar">Snackbar</string>
+    <string name="what_snackbar">¿Qué es un Snackbar?</string>
+    <string name="i_am_a_snackbar">This is a snackbaaaaaaaaaaaaar!</string>
+    <string name="snackbar_action">ok</string>
+
+    <!-- Coordinator case one -->
+    <string name="title_activity_coordinator_layout_and_fab">Scrolling technique one </string>
+    <string name="button_coordinator_one">Técnica 1</string>
+
+    <!-- Coordinator case two -->
+    <string name="title_activity_coordinator_app_bar_with_tabs">Scrolling technique two</string>
+    <string name="button_coordinator_two">Técnica 2</string>
+
+    <!-- Coordinator case three -->
+    <string name="title_activity_coordinator_and_fab">Scrolling technique three</string>
+    <string name="button_coordinator_three">Técnica 3</string>
+
+    <!-- Coordinator case four -->
+    <string name="title_activity_collapsing_tool_bar_layout">Scrolling technique four</string>
+    <string name="button_coordinator_four">Técnica 4</string>
+
+    <!-- Coordinator case five -->
+    <string name="title_activity_collapsing_toolbar_and_fab">Scrolling technique five</string>
+    <string name="button_coordinator_five">Técnica 5</string>
+
+    <!-- Planets -->
+    <string-array name="planets_names">
+        <item>Venus</item>
+        <item>Mercurio</item>
+        <item>Tierra</item>
+        <item>Marte</item>
+        <item>Jupiter</item>
+        <item>Saturno</item>
+        <item>Urano</item>
+        <item>Neptuno</item>
+    </string-array>
+
+</resources>
